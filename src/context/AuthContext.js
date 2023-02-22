@@ -23,7 +23,7 @@ export const AuthContextProvider = ({ children }) => {
 
   return (
     <AuthContext.Provider value={{ currentUser }}>
-      {/* children mean our components that mean our app */}
+      {/* children mean, our components that mean our app */}
       {/* our app can be user currentUser */}
       {children}
     </AuthContext.Provider>

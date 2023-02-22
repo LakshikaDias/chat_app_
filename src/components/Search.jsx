@@ -92,6 +92,9 @@ const Search = () => {
       }
     } catch (err) {}
 
+    setUser(null);
+    setUserName("");
+
     //create user chats
   };
 
@@ -103,6 +106,7 @@ const Search = () => {
           placeholder="Find a user"
           onKeyDown={handleKey}
           onChange={(e) => setUserName(e.target.value)}
+          value={username}
         />
       </div>
 
